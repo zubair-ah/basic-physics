@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Motion">
+
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" android:id="@+id/scrollView3"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Motion"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:textSize="20sp"
+                      android:textColor="#000"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Introduction:"
+                      android:layout_margin="5dp"
+                      android:fontFamily="@font/gabriola"
+                      android:textSize="35sp"
+                      android:textColor="#000"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/MotionDefinition"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"
+                      android:textColor="#000"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Uniform And Non-Uniform Motion:"
+                      android:fontFamily="@font/gabriola"
+                      android:textAppearance="@style/body"
+                      android:textSize="25sp"
+                      android:layout_margin="5dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/uniform"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+            <ImageView android:layout_width="200dp" android:layout_height="200dp"
+                       android:src="@drawable/unifromasset"
+                       android:layout_gravity="center"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Uniform Motion"
+                      android:textAppearance="@style/heading"
+                      android:textAlignment="center"/>
+            <ImageView android:layout_width="200dp" android:layout_height="200dp"
+                       android:src="@drawable/nonunifromasset"
+                       android:layout_gravity="center"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Non-Uniform Motion"
+                      android:textAppearance="@style/heading"
+                      android:textAlignment="center"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Distance:"
+                      android:textAppearance="@style/heading"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:textAppearance="@style/body"
+                      android:text="@string/distance"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Displacement:"
+                      android:layout_margin="5dp"
+                      android:textAppearance="@style/heading"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:textAppearance="@style/body"
+                      android:text="@string/displacement"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Speed:"
+                      android:textAppearance="@style/heading"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/speed"
+                      android:layout_margin="5dp"
+                      android:textAppearance="@style/body"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Velocity:"
+                      android:textAppearance="@style/heading"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/velocity"
+                      android:textAppearance="@style/body"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/vel"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Acceleration:"
+                      android:textAppearance="@style/heading"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/accelr"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/motionad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9175625503877306/5497104616">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

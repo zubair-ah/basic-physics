@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "42549801421",
+    "firebase_url": "https://basic-physics.firebaseio.com",
+    "project_id": "basic-physics",
+    "storage_bucket": "basic-physics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42549801421:android:3e7d490939059695",
+        "android_client_info": {
+          "package_name": "com.zubairahmad.basicphysics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42549801421-926rv3foujctntfdo4ft2lb0eofcani7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTma6ANANmRjbtvfePAkIzy_yD6aW-9bY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

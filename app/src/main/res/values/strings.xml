@@ -1,0 +1,519 @@
+<resources>
+    <string name="app_name">Basic Physics and Quiz</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="derivation">Physics derived from Ancient Greek word: φυσική (ἐπιστήμη), translit. physikḗ (epistḗmē),
+        lit. \'knowledge of nature\', from φύσις phýsis "nature" is the natural science that studies matter and its
+        motion and behavior through space and time and that studies the related entities of energy and force.Physics is
+        one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves.
+    </string>
+    <string name="MotionDefinition">> Change in position of a body with respect to a stationary object is known as
+        Motion.
+        \n
+        \n
+        > We can easily see a movement of a body if it moves fast but it becomes difficult to see the motion of a body
+        if it moves very slow.
+    </string>
+    <string name="uniform">> When a body travels equal distances in equal intervals of time then the body is said to be
+        in Uniform Motion.It does not matter how small the intervals are.\n
+        >The graph of uniform motion is a straight line.
+        \n
+        \n
+        > When a body travels unequal distances in equal intervals of time then the body is said to be in Non-uniform
+        Motion.\n
+        >The graph of non-uniform motion is a curved line
+    </string>
+    <string name="distance">> Distance travelled by a body is the actual length of the path covered by a moving body.\n
+        > Distance is a scalar quantity
+    </string>
+    <string name="displacement">> The shortest distance between the initial and final position of body,alongwith
+        direction is known as Displacement.\n
+        >Displacement is a vector quantity
+    </string>
+    <string name="speed">> The distance travelled by the body in unit time is known as the rate of motion or Speed.\n
+        > The SI unit of speed is m/s.\n
+        > Speed of an object can be obtained by dividing the Distance travelled by time taken.\n
+        > Speed= Distancetravelled/Timetaken\n
+        > A body is said to be in uniform speed if it covers equal distances in equal intervals of time.
+    </string>
+
+    <string name="velocity">> If a quantity specifies the direction of motion along with its speed.It is known as
+        Velocity.\n
+        > SI unit of velocity is same as that of speed.\n
+        > velocity= Displacement/Timetaken
+    </string>
+    <string name="accelr">> Acceleration of a body is defined as rate of change of its velocity with time.
+        \n
+        > The SI unit of acceleration is "meter per second square" or m/s<sup>2</sup> ms<sup>-2</sup>.\n
+        > When a body is moving with uniform velocity then its acceleration will be zero. \n
+        > Acceleration = Final velocity - Initial velocity/Time taken\n
+        > if "u" is initial velocity and "v" is final velocity and "t" is time taken then acceleration "a" is given by\n
+        a=v-u/t
+    </string>
+    <string name="forcedef">> A push or pull in a body is called Force.\n
+        > Motion generated in an object is because of an action of a Force.
+        \n
+        > Force is capable of changing the speed of a moving body.\n
+        > Force can stop a moving body.\n
+        > Force can change the direction of a moving body.\n
+        > We can move a stationary body by applying force.\n
+        > We can decrease the speed of an object by applying force in the direction opposite to the direction of
+        motion.\n
+        > A Force can change the shape of an object.\n
+    </string>
+    <string name="balance">> If resultant of all the forces acting on a body is zero,the forces are called balanced
+        forces.\n
+        > If the resultant of all the forces acting on a body is not zero,the forces are called unbalanced forces.
+    </string>
+    <string name="firstlaw">> In an inertial frame of reference, an object either remains at rest or continues to move
+        at a constant velocity, unless acted upon by a force.\n
+        > If a ball is lying on the ground it will not move by itself or in other words it cannot change its position of
+        rest by itself unless acted by an external force.Thus the position of the ball is changed by an external force
+        which supports the first law.\n
+        > Inertia is that property of a body due to which it resists the change in its state of rest or motion.\n
+        > Greater force will be needed to bring a change in the state of a body whether it is in rest or motion,if
+        inertia is greater.\n
+        > Mass is measure of inertia of body,it means that heavier objects have more inertia than lighter objects.\n
+        > we have observed that when a car stops suddenly the passengers fell forward or when it starts suddenly,the
+        passengers fall backward.
+    </string>
+    <string name="momentum">> The product of mass and velocity of a body is known as momentum.\n
+        > <i>p=m×v</i> where p=momentum,m=mass and v=velocity.\n
+        > Momentum is a vector quantity.\n
+        > SI unit of momentum is kg.m/s or kg.m s<sup>-1</sup>.
+
+    </string>
+    <string name="second">> In an inertial frame of reference, the vector sum of the forces F on an object is equal to
+        the mass m of that object multiplied by the acceleration a of the object: F = ma. (It is assumed here that the
+        mass m is constant).\n
+        > This law gives relationship between Force and acceleration.\n
+        > F=ma can also be written as a=F/m.
+    </string>
+    <string name="thirdlaw">> When one body exerts a force on a second body, the second body simultaneously exerts a
+        force equal in magnitude and opposite in direction on the first body.\n
+        > The gun recoils because when a bullet is fired the force sending the bullet forward is equal to the force
+        sending the gun backward.But the gun being heavy moves only a small distance and gives a backward kick to the
+        soldier.
+    </string>
+    <string name="conserve">> This law states that,when two or more bodies act upon one another their total momentum
+        remains constant or in other words we can say that momentum is never created or destroyed.
+    </string>
+    <string name="work">> We say work is done when a force produces motion.\n
+        > Work = Force × Distance moved\n
+        > W=F × S where W=work done,F=force and s = Distance\n
+        > Work is a scalar Quantity.\n
+        > Unit of work is Newton metre which is written as Nm.This unit is called joule.\n
+        > The necessary condition for force to do work is that it should produce motion in the body.\n
+        > If a man pushes a stationary wall and applies force,the work done in this case is zero as there is no
+        displacement.
+    </string>
+    <string name="workg">> Whenever we do work against gravity then the work is equal to the product of weight of the
+        body and the vertical distance through which the body is lifted.\n
+        > When we lift a ball from the ground,we do work against the force of gravity.\n
+        > Work done in lifting a body = Weight of the cosy × Vertical distance.\n
+        > W=m × g × h where W=work done,m=mass,g=acceleration due to gravity and h=height through which body is lifted.
+
+    </string>
+    <string name="energy">> The ability to do work is known as energy.\n
+        > The energy is consumed,whenever work is done.\n
+        > Energy is a scalar quantity.\n
+        > The units of work and energy is same.The SI unit of energy is joule.
+    </string>
+    <string name="kinetic">> The energy of a body due to its motion is called kinetic energy.\n
+        > A runner possesses kinetic energy due to its motion.\n
+        > Similarly a moving car has kinetic energy due to its motion.\n
+        > So, we can say that every object which has speed has kinetic energy.\n
+        > Kinetic energy= 1/2mv<sup>2</sup> where m=mass,v=velocity\n
+        > We can say that the kinetic energy of a body is directly proportional to its mass as indicated by the
+        formula/\n
+        > The kinetic energy of a body is directly proportional to the square of velocity or speed of the body.\n
+        > on approaching a hilly road,the driver increases the speed of the car to give it kinetic energy so that it can
+        overcome the force of gravity.
+    </string>
+    <string name="potential">> The potential energy of a body is defined as energy possessed by it due to its position
+        or change in shape.\n
+        > A body may possess potential energy even when not in motion.\n
+        > Potential energy=m × g × h where m=mass,g=acceleration due to gravity,h=height of the body.\n
+        > The sum of potential energy and kinetic energy is called mechanical energy.
+    </string>
+    <string name="power">> The rate of doing work is known as power.\n
+        > The work done per unit time is known as power.\n
+        > In other words,power is the rate at which energy is consumed.\n
+        > Power is a scalar quantity.\n
+        > p=w/t where p=power,w=work,t=time
+        > The SI unit of power is watt.
+    </string>
+    <string name="def">> Physics can be defined as the study of nature and natural phenomenon.</string>
+    <string name="physicsandmath">> Mathematics is the language of physics.Without the knowledge of mathematics it is
+        very difficult for us to study the physics.But it should be noted that mathematics itself is not physics.if we
+        are poor at grammar then we cannot communicate with others,same applies to physics,if you are poor at
+        mathematics then you cannot understand physics.So if you want to study the physics,then you should learn
+        mathematics first.
+    </string>
+
+    <string name="gravity">> Every object is attracted towards the center of the earth and the force responsible for the
+        attraction is known as force of gravitation of earth or gravity of earth.\n
+        > It is gravity that holds the atmosphere above the surface of earth;for falling of rain and it is gravity that
+        holds us firmly on the ground.\n
+        > If the masses of the objects are small,then the gravitational force which they exert on one another is small
+        and we cannot see its effect.For example two stones lying on the ground exert force on one another but due to
+        small size we cannot see its effect.\n
+        > If one of the object is very massive then the gravitational force becomes very large and its effect can be
+        seen easily.For example a ball lying on some height and the earth exert force on one another but due to large
+        size of earth the balls down towards the ground.\n
+        > According to Newton every object in this universe attracts another object with a certain force known as
+        gravitational force.
+    </string>
+    <string name="lawofgravity">> Universal law of Gravitation was given by Newton.According to universal law of
+        gravitation:Every body in this universe attracts every other body with a force which is directly proportional to
+        the product of their masses and inversely proportional to the square of distance between them.\n
+        > The expression for universal law of Gravitation is F=Gm<sub>1</sub>×m<sub>2</sub> /r<sup>2</sup> Where G is a
+        constant known as universal gravitational constant.\n
+        > The above formula gives gravitational force between two bodies having mass m<sub>1</sub> and m<sub>2</sub> and
+        placed at a distance of r.This formula can be applied anywhere in the universe.\n
+        > The value of G has been found to be 6.67×10<sup>-11</sup> Nm<sup>2</sup>/Kg<sup>2</sup>/\n
+        > If the distance between two bodies is doubled the gravitational force becomes one forth and if the distance is
+        halved then the force becomes four times.\n
+        > The force of gravitation is a vector quantity.
+    </string>
+    <string name="freefall">> In Newtonian physics, free fall is any motion of a body where gravity is the only force
+        acting upon it. \n
+        > The acceleration of an object which is in freefall does not depend on the mass of the object.\n
+        > If feather and the coin are dropped at the same time in a jar having no air in it or we can say that their is
+        a vacuum in the jar,and when the coin and the feather are dropped at the same time from the top of the jar,it is
+        found that both the coin and the feather will hit the bottom
+        of the jar at the same time.This shows that Acceleration of an object which is under freefall is same for all
+        bodies or in other words we can say that it does not depend on the mass of the freely falling bodies.
+    </string>
+    <string name="mass">> Mass of a body is defined as the quantity of matter possessed by it.\n
+        > Mass is a scalar quantity.\n
+        > SI unit of mass is Kilogram denoted by Kg.\n
+        > Mass of a body is constant and does not change from place to place.\n
+        > Mass of a body can never be zero.\n
+        > Mass of a body is denoted by m.
+    </string>
+    <string name="weight">> The mass of a body is defined as the force with which it is attracted towards the centre of
+        the earth.\n
+        > SI unit of weight is newton denoted by letter N.\n
+        > W=mg where W is weight of the body ,mass is mass and g is acceleration due to gravity.\n
+        > The weight of 1kg mass is 9.8 newtons.
+    </string>
+    <string name="waves">> A wave is a disturbance in an medium which carries energy from one point to another point.\n
+        > It is created by the vibration of particles of the medium through which it passes.\n
+        > The medium itself does not move along the wave,only the particles of the medium vibrate about their fixed
+        positions.
+    </string>
+    <string name="longitudinal">> A longitudinal wave is that wave in which the particles of the medium vibrate back and
+        forth in the same direction in which wave is moving.\n
+        > The sound waves are longitudinal waves.\n
+        > When vibrating particles move forward they push and compress the air and create a region of high pressure in
+        other words we can say that the particles of the medium are closer to each other,this is called compression.\n
+        > When the vibrating particles move backward,a region of low pressure is created or in other words we can say
+        that the particles of the medium are farther apart,this is known as rarefaction.\n
+
+    </string>
+    <string name="transverse">> A transverse wave is a moving wave that consists of oscillations occurring perpendicular
+        (right angled) to the direction of energy transfer (or the propagation of the wave).\n
+        > The waves that are formed on the surface of water in a pond are transverse waves.
+        > The hump in transverse wave is known as <b>Crest</b>.This part is above the line of zero disturbance.\n
+        > The depression in a transverse wave is known as <b>Trough</b>.This part is below the line of zero
+        disturbance.\n
+    </string>
+    <string name="vibration">> The to and fro or back and forth motion of an object is known as vibration.\n
+        > In human beings sound is produced by larynx also known as voice box.\n
+        > You can easily feel the vibration by keeping hand on your throat.
+    </string>
+    <string name="prod">> In humans,the sound is produced by voice box also known as <b>Larynx</b>.\n
+        > It is at the upper end of the windpipe.\n
+        > Two vocal cards are stretched across the larynx in such a way that it leaves a narrow slit between them for
+        the passage of air and in this way the sound is produced.\n
+
+        > The vocal cards in men are about 20mm long and in women it about 15mm long this is the reason that the
+        men,women and children have different voices.
+    </string>
+    <string name="ears">> The ear is the part through which we hear.\n
+        > The shape of the outer part of ear is like a funnel and when sound enters in it,it keeps going down the canal
+        at the end of which a thin membrane is stretched known as <b>eardrum</b>.\n
+        > The ear drum acts like a stretched rubber sheet.Sound vibrations makes it vibrate.The vibrations are send to
+        inner ear and from there signal goes to brain and that is how we hear.\n
+    </string>
+    <string name="sound">> Sound is a form of energy that makes us hear.\n
+        > Sound travels in the form of waves.\n
+        > Sound waves are longitudinal waves.\n
+        > When vibrating particles move forward they push and compress the air and create a region of high pressure in
+        other words we can say that the particles of the medium are closer to each other,this is called compression.\n
+        > When the vibrating particles move backward,a region of low pressure is created or in other words we can say
+        that the particles of the medium are farther apart,this is known as rarefaction.\n
+    </string>
+    <string name="chara">> Wavelength is the minimum distance in which a wave repeats itself.We can also define it as
+        the distance between the two consecutive compressions and rarefactions.\n
+        > Wavelength is usually denoted by Greek letter lambda(λ).\n
+        > The SI unit for measuring wavelength is metre(m).\n
+        > <b>Amplitude</b> can be defined as the maximum displacement of particles of the medium from their original
+        positions when a wave passes through it. \n
+        > It is represented by A.\n
+        > To describe the size of the wave,the term amplitude is used.\n
+        > Time period is defined as the time taken to complete one vibration.\n
+        > The unit is seconds and represented by T.\n
+        > <b>Frequency</b> is defined as number of vibrations per second.\n
+        > The SI unit of frequency is Hertz written as Hz.\n
+        > The frequency of a wave is represented by f.
+    </string>
+    <string name="elec">> <b>Charge</b> is something which the body possesses that make them capable of exerting the
+        electric force and responding to it.\n
+        > Charges are responsible for the electric force.\n
+        > The SI unit of electric charge is Coulomb(C).
+    </string>
+    <string name="conservec">> Total charge of an isolated system always remains constant or conserved.\n
+        > Charges can be created or destroyed in equal and unlike pairs only.For example a Neutron turns into an
+        electron and proton.But these electron and proton have opposite charges and are equal.So the total charge before
+        and after remains zero.\n
+    </string>
+    <string name="current">> The charges constitute the current when they are flowing through a conductor.\n
+        > The current is expressed by a unit known as Ampere(A).\n
+        > Ammeter is the instrument that measures the electric current.\n
+    </string>
+    <string name="conduct">> <b>Conductors</b> are those bodies which allow the charges to pass through them.\n
+        > All conductors have some loosely bound electrons and are free to move.These electrons are called free
+        electrons.These electrons allow the charge to flow through conductor.\n
+        ><b>Insulators</b> are those bodies which do not allow the current to pass through them.For example glass.\n
+        > These substances have practically no free electrons.
+    </string>
+    <string name="electricpotential">> Electric potential at a point is defined as amount of work done in bringing a
+        unit positive charge from infinity to that point.\n
+        > Charge flows in a circuit due to the difference in potential between the two bodies in contact.\n
+        > The device that measures the potential difference is known as voltmeter.\n
+    </string>
+    <string name="ohm">> This law states that under same physical conditions,the electric current flowing through a
+        metallic wire is directly proportional to the potential difference across the ends of the conductor.\n
+    </string>
+    <string name="superc">> Those substances whose resistance becomes zero at low temperature are called super
+        conductors and the phenomenon is called super conductivity.\n
+    </string>
+    <string name="funda">> Those quantities which are chosen for measuring fundamental quantities are known as
+        fundamental quantities e.g. kilogram,metre etc.\n
+    </string>
+    <string name="deri">> Those quantities which are expressed in terms of base quantities e.g. unit of speed is ms<sup>
+        -1</sup>.
+    </string>
+    <string name="solar">> Solar system consists of the sun and all the celestial bodies which revolve around it.\n
+        > There are eight planets in our solar system which are arranged in order of their distance from the sun they
+        are:Mercury,Venus,Earth,Mars,Jupiter,Saturn,Uranus and Neptune.\n
+        > <b>Inner planets</b> are first four planets:Mercury,venus,Earth,Mars.\n
+        > <b>Outer planets</b> include Jupiter,saturn,uranus and Neptune.
+    </string>
+    <string name="emit">> The stars are giant balls of Hydrogen gas.\n
+        > The temperature of the center of the star is from 2Million to 5 Million degree celsius.\n
+        > At this temperature their occurs fusion,hydrogen gas fuses together to give <b>Helium</b> with the liberation
+        of huge amount of heat and energy.
+    </string>
+    <string name="sun">> The sun is the nearest star to our earth.\n
+        > Our sun is a medium sized star.\n
+        > The distance of the sun from the earth is 150 million kilometers.
+    </string>
+    <string name="impterms">> <b>Light Year</b> is the distance travelled by the light with the speed of 300000 km/s in
+        one year.\n
+        > <b>Light Minute</b> is the distance travelled by the light at a speed of 300,000 km/s in one minute.\n
+        > <b>Alpha Centauri</b> is the nearest star after sun to Earth located at a distance of 4.3 light years.\n
+        > All heavenly bodies appear to move from east to west because the earth rotates on its north-south axis from
+        west to east.\n
+        > <b>Constellations</b> are group of stars that form a recognisable shape.\n
+
+    </string>
+    <string name="planets">> <b>Planets</b> are heavenly bodies that revolve around the sun in a well defined orbit.\n
+        > There are eight planets in our solar system.\n
+        > The path of the planet is known as <b>Orbit</b>.\n
+        > The position of the planets with respect to earth changes everyday.\n
+        > <b>Mercury</b> is the nearest planet to the sun.\n
+        > Mercury is one of the hottest planets in the solar system because it is nearer to sun.\n
+        > <b>Venus</b> is the second planet from the sun.\n
+        > Venus is the brightest star.\n
+        > Venus rotates from east to west.\n
+        > <b>Earth</b> is the only planet in solar system on which life exists.\n
+        > Moon is the only natural satellite of earth.\n
+        > <b>Mars</b> is the fourth planet in order of the increasing distance from the sun.\n
+        > Mars is known as Red planet.\n
+        > There are two moons revolving around it.\n
+        > <b>Jupiter</b> is the largest planet in the solar system.\n
+        > The gravitational pull of this planet is very high due to large size.\n
+        > <b>Saturn</b> is surrounded by three flat rings.\n
+        > There are 30 moons revolving around the Saturn.\n
+        > Titan is the largest moon in the solar system.\n
+        > <b>Uranus</b> is the third largest planet in the solar system.\n
+        > 21 moons are revolving around uranus.\n
+        > <b>Neptune</b> is the eight planet from the sun in order of the distance.\n
+        > 21 satellites are discovered around it.\n
+    </string>
+    <string name="comets">> A <b>comet</b> is a star-like object with a long tail and the length of the tail grows as it
+        comes nearer to the sun.\n
+        > <b>Halley\'s comet</b> appears after 76 years.It is expected to visit us in 2062.\n
+        > <b>Meteors</b> are also known as shooting star.\n
+        > A meteors enters our atmosphere and catches fire due to the friction of atmosphere.\n
+        > <b>Meteorites</b> are those meteors that reach our earth.\n
+    </string>
+    <string name="light">> Light is an electromagnetic wave that produces in us the sensation of vision.\n
+        > <b>Luminous objects</b> are those objects that have light of their own like sun.\n
+        > <b>Non-Luminous objects</b> are those objects that don\'t have light of their own,they reflect the light from
+        luminous objects like moon.\n
+    </string>
+    <string name="charlight">> Light passes through transparent objects like glass,but cannot pass through opaque
+        objects like wood.\n
+        > The path of the light is a straight line.\n
+        > Light is reflected when it falls on smooth surfaces like mirror.\n
+        > The speed of light is maximum in vacuum.\n
+        > The speed of light in vacuum is 3 ×10<sup>8</sup> ms<sup>-1</sup>.
+    </string>
+    <string name="implight">> <b>Medium</b> is a substance through which light propagates.It is of three types as listed
+        below:\n
+        > <b>Transparent medium</b> is that type of medium through which light can propagate like glass.\n
+        > <b>Translucent medium</b> is that type of medium through which light passes partially like paper.\n
+        > <b>Opaque</b>is that type of medium through which light cannot pass like iron.\n
+        > <b>Ray</b> is defined as the straight path along which the light travels in a medium.\n
+        > <b>Beam</b>:When a number of rays are combined together a Beam is formed.
+    </string>
+    <string name="reflect">> When a ray of light strikes a surface then the ray of light bounces back in the same
+        medium.This phenomenon is known as reflection of light.\n
+        > Reflection is of two types:\n
+        > <b>Diffused reflection</b> is reflection from rough surface.\n
+        > <b>Regular Reflection</b> is reflection from smooth surface.\n
+    </string>
+    <string name="lawsofreflect">> The angle of incidence(i) is equal to angle of reflection.\n
+        > The incident ray,the reflected ray and the normal at the point of incidence all lie in same plane.\n
+        > Image formed by a plane mirror is always virtual and erect.
+    </string>
+    <string name="refraction">> When a ray of light travelling in one medium enters into another medium their occurs
+        bending of light at the surface of separation of two media.This is known as Refraction.\n
+        > <b>Optically denser</b>  medium is that medium in which the speed of light is less.\n
+        > <b>Optically rarer</b> medium is that medium in which the speed of light is more.
+    </string>
+    <string name="lawsofrefract">> The incident ray,the refracted ray and the normal to the interface of separation at
+        the point of incidence all lie in same plane.\n
+        > The ratio of sine of angle of incidence to the ratio of sine of refraction is a constant.This law is also
+        known as Snell\'s law.
+    </string>
+    <string name="instru">> Altimeter: Measures altitude of an aircraft.\n
+        > Accelerometer: Measures acceleration.\n
+        > Ammeter: Measures electric current in ampere.\n
+        > Barometer: Measures Atmospheric pressure.\n
+        > Calorimeter: It is used to measure heat in chemical reaction.\n
+        > Fathometer : It is used to measure Depth.\n
+        > Galvanometer: It is used to measure electric current.\n
+        > Hydrometer:Measures specific gravity of liquid.\n
+        > Hygrometer: It is used to measure atmospheric humidity.\n
+        > Inclinometer:Measures angel of slope.\n
+        > Lactometer:Measures purity of milk.\n
+        > Ohmmeter:Measures resistance.\n
+        > Odometer:Measures distance.\n
+        > Radar:It is used to detect distant objects.\n
+        > Spectrometer:Measures light spectrum.\n
+        > Voltmeter:Measures volt.
+    </string>
+    <string name="magnetic">> The Electromagnetic effect was first discovered by Oersted.\n
+
+    </string>
+    <string name="natural">> <b>Natural magnets</b> are the one,which occur naturally e.g.,lodestone.\n
+        > <b>Artificial magnets</b> are prepared artificially by magnetising small pieces of iron.\n
+    </string>
+    <string name="lines">> Michael Faraday was the one that put forward the concept of Magnetic field lines.\n
+        > Faraday told us that the magnet modifies the space around itself in such a fashion that if any other magnetic
+        substance moves into this space it experiences a force.The region is termed as magnetic field of the magnet.\n
+        > Magnetic field line can be best described as the pictorial representation of magnetic field.\n
+        > The magnetic field lines travel from north to south pole of magnet outside the magnet and from south to north
+        pole inside the magnet.\n
+        > They are continuous closed curves. \n
+        > They do not intersect each other.\n
+
+    </string>
+    <string name="source">> Energy is ability to do work.It can exist in many forms.Some of them are:\n
+        > Heat energy\n
+        > chemical energy\n
+        > Electrical energy\n
+        > Nuclear energy\n
+    </string>
+    <string name="renewable">> <b>Renewable</b> sources are those sources which are inexhaustible.e.g. solar energy.\n
+        <b>Non-renewable</b>
+        sources are exhaustible and should be used wisely.e.g. coal.
+    </string>
+    <string name="coal">> Coal is a mixture of carbon,hydrogen,oxygen, nitrogen and sulphur.\n
+        > It was formed by decomposition of plants that got buried under the surface of earth millions of years ago.\n
+        > Carbonisation is a process of conversion of wood into coal at high temperature and pressure.
+    </string>
+
+    <string name="wind">> Wind possesses kinetic energy and therefore and therefore can be used as a source of energy.\n
+        > Winds blow because of uneven heating of earth\'s surface.\n
+        > Wind energy is used to operate
+        <b>Wind mills.</b>
+        > It is clean and pollution free source of energy.
+    </string>
+    <string name="solare">Solar energy is produced by solar rays.\n
+        > The solar energy recieved by the earth is in scattered form or diffused form.\n
+    </string>
+    <string name="geothermal">It is heat energy present inside the earth.\n
+        > Geothermal plants use the heat energy of the magma.\n
+        > It is renewable source of energy and is free of cost.\n
+    </string>
+    <string name="nuclearenergy">> This energy is released in the process of fission or fusion.\n
+        > The nuclear energy is used to generate heat which is then used in steam turbines to produce electricity.\n
+    </string>
+
+
+    <string name="awards">Henri Poincaré Prize\n
+        Hoyle Medal and Prize\n
+        Abdus Salam Award\n
+        Arthur L. Schawlow Prize in Laser Science\n
+        Walter Schottky Prize\n
+        Simon Memorial Prize\n
+        Sloan Fellowship\n
+        Albert Einstein Award\n
+        Infosys Prize\n
+        Isaac Newton Medal\n
+        R W B Stephens Medal\n
+        Swan Medal and Prize\n
+        Thomson Medal and Prize\n
+        Three Physicists Prize\n
+        VASVIK Industrial Research Award\n
+        Wolf Prize in Physics\n
+        Fluid Dynamics Prize (APS)\n
+        Foresight Institute Feynman Prize in Nanotechnology\n
+        List of Fritz London Memorial Prizes\n
+        Hector Memorial Medal\n
+        Dannie Heineman Prize for Astrophysics\n
+        Dannie Heineman Prize for Mathematical Physics\n
+        EPS Europhysics Prize\n
+        Faraday Medal and Prize\n
+        Nobel Prize in Physics\n
+        ASA Gold Medal\n
+        Frank Isakson Prize for Optical Effects in Solids\n
+        James Clerk Maxwell Prize in Plasma Physics\n
+        James C. McGroddy Prize for New Materials\n
+        Rayleigh Medal and Prize\n
+        David Richardson Medal\n
+        Richtmyer Memorial Award\n
+        Robert A. Millikan award\n
+        Rumford Prize\n
+        Rutherford Medal and Prize\n
+        Sakurai Prize\n
+
+        Albert Einstein Medal\n
+        Einstein Prize \n
+        Albert Einstein World Award of Science\n
+
+        ASA Silver Medal\n
+        Hans Bethe Prize\n
+    </string>
+    <string name="astro">>It is on of the oldest branches of Astronomy.\n
+        >Astrophysics is the branch of astronomy that employs the principles of physics and chemistry to ascertain the
+        nature of the astronomical objects, rather than their positions or motions in space\n
+        > Theoretical astrophysics describes the function of celestial bodies.\n
+        > Astrophysicists attempt to describe the properties of dark energy,dark matter and <b>Black holes</b>.\n
+    </string>
+    <string name="astronomy">>Astronomy is a natural science that studies celestial objects and phenomena.\n
+        > In order to explain the origin of the celestial bodies, their evolution, and phenomena, the different
+        disciplines of science such as physics, chemistry, mathematics are applied.\n
+        >Astronomy is categorised as below:
+        > Observational astronomy is focused on acquiring data from observations of astronomical objects, which is then
+        analyzed using basic principles of physics. \n> Theoretical astronomy is oriented toward the development of
+        computer or analytical models to describe astronomical objects and phenomena. The two fields complement each
+        other, with theoretical astronomy seeking to explain observational results and observations being used to
+        confirm theoretical results
+    </string>
+</resources>

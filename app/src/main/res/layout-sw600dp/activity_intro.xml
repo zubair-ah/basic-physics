@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Intro"
+>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Introduction:"
+                      android:fontFamily="@font/gabriola"
+                      android:textSize="35sp"
+                      android:textColor="#000"
+                      android:layout_margin="5dp"
+                      android:id="@+id/textView2" app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                      android:layout_marginStart="5dp" android:layout_marginEnd="5dp"
+            />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/derivation"
+                      android:fontFamily="@font/timesi"
+                      android:textSize="30sp"
+                      android:textColor="#000"
+
+                      android:layout_margin="5dp"
+                      android:id="@+id/textView3"
+
+
+                      android:textAlignment="viewStart"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Definition:"
+                      android:fontFamily="@font/gabriola"
+                      android:textSize="45sp"
+                      android:textColor="#000"
+                      android:layout_margin="5dp"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                      android:layout_marginStart="5dp" android:layout_marginEnd="5dp"
+            />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/def"
+                      android:textAppearance="@style/tbody"
+                      android:layout_margin="5dp"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:src="@drawable/einstien"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Physics and mathematics"
+                      android:textAppearance="@style/theading"
+                      android:layout_margin="5dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/physicsandmath"
+                      android:textAppearance="@style/tbody"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Fundamental Quantities:"
+                      android:textAppearance="@style/theading"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/funda"
+                      android:textAppearance="@style/tbody"
+                      android:layout_margin="5dp"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/quantities"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Derived Quantities:"
+                      android:textAppearance="@style/theading"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/deri"
+                      android:textAppearance="@style/tbody"
+                      android:layout_margin="5dp"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:src="@drawable/planck"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/introad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9175625503877306/9209118915">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

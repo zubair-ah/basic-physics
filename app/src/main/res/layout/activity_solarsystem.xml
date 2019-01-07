@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Solarsystem">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Solar System"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:textColor="#000"
+                      android:textSize="25sp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Introduction:"
+                      android:fontFamily="@font/gabriola"
+                      android:textAppearance="@style/body"
+                      android:textSize="25sp"
+                      android:layout_margin="5dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/solar"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+<ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+android:src="@drawable/solar"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="How do the stars emit light:"
+                      android:fontFamily="@font/gabriola"
+                      android:textAppearance="@style/body"
+                      android:textSize="25sp"
+                      android:layout_margin="5dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/emit"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+
+<ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+android:src="@drawable/sun"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Important Terms:"
+                      android:fontFamily="@font/gabriola"
+                      android:textAppearance="@style/body"
+                      android:textSize="25sp"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/impterms"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Planets:"
+                      android:fontFamily="@font/gabriola"
+                      android:textAppearance="@style/body"
+                      android:textSize="25sp"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/planets"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="Comets and Meteors:"
+                      android:fontFamily="@font/gabriola"
+                      android:textAppearance="@style/body"
+                      android:textSize="25sp"
+                      android:layout_margin="5dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/comets"
+                      android:textAppearance="@style/body"
+                      android:layout_margin="5dp"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/meteor"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/solarad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9175625503877306/3657409338">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
